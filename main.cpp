@@ -7,7 +7,7 @@ int main()
     std::string filePath;
     std::string fileExt = ".png";
     std::cout << "Enter the path to the file:" << std::endl;
-    std::cin >> filePath;                                                                // C:\\19.5_txt_img\\img.png
+    std::cin >> filePath;                                                                
     /*
      * unsigned end = filePath.length() - fileExt.length();
      * if(!filePath.substr(end,fileExt.length()) == fileExt) {};
